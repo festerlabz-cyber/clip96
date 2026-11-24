@@ -18,6 +18,8 @@ Owner speaks Dutch; write user-facing docs in Dutch, GUI text in English.
   Ceiling/Output column, big Push knob, Clip / Split / Limit groups, Monitor (Delta, Match, latency), Meters (In, GR, Out),
   bottom bar Mode / Quality / Presets.
 - `.github/workflows/build-macos.yml` — universal AU + VST3, auval, DMG artifact with install script.
+- `.github/workflows/build-windows.yml` — Windows x64 VST3 (MSVC, static runtime), pluginval strictness 5, zip artifact
+  with `packaging/LEESMIJ-Windows.txt`.
 
 ## Decisions
 - Manufacturer code `Btbt`, plug-in code `Cl96`, bundle id `com.boomtownbeats.clip96`. Never change these.
